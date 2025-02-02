@@ -12,4 +12,4 @@ You can choose GPU or CPU versions according to your System Specification
 
 ![image](https://github.com/user-attachments/assets/e79f90f3-7c50-4a8c-a352-712844592092)
 
-* You can find your PrivateKey file `key.pmf` in this directory `C:\Users\XXX\AppData\Roaming\hyperspace`
+* Save your Private Key
