@@ -55,20 +55,20 @@ screen -S cli-hyperspace
 aios-cli models list
 ```
 
-1️⃣ Choose Your Tier (currently ranging from best to worst as 1-5)
-```
-aios-cli hive select-tier 5
-```
-
-2️⃣ Download Tier Model
+1️⃣ Download Tier Model 
 ```
 aios-cli models add hf:TheBloke/phi-2-GGUF:phi-2.Q4_K_M.gguf
 ```
 
-3️⃣ Registered Your Tier
+2️⃣ Registered Your Tier
+```
+aios-cli hive login
+```
 ```
 aios-cli hive connect
 ```
+
+3️⃣ Choose Your Tier (currently ranging from best to worst as 1-5)
 ```
 aios-cli hive select-tier 5
 ```
@@ -94,4 +94,14 @@ Then Start Node
 aios-cli hive whoami
 ```
 
+## 🔶For Next Day Run This Command
+
+#1 Open WSL and Put this Command 
+```
+source /root/.bashrc
+```
+Directly Run Start Command
+```
+aios-cli start
+```
 
