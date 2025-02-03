@@ -37,4 +37,6 @@ All this information is based on available web data and posts on X.
 
 ## Run Browser Node [Check Out](Browser-Node.md)
 
-## Run CLI Node [Check Out](CLI-Node.md)   [System Requiremnets](system-requirements.md)
+## Run CLI Node [Check Out](CLI-Node.md)   
+
+[System Requiremnets](system-requirements.md)
